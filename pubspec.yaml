@@ -1,0 +1,27 @@
+name: job_finder
+description: JobNest - a modern Material 3 job app for Indian software, tech and finance roles, powered by Adzuna.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  intl: ^0.19.0
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
